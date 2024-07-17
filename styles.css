@@ -1,0 +1,81 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f41151;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#quiz-container {
+    background-color: #08dafa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+}
+
+h1 {
+    color: #b92e12;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1b1291;
+}
+
+.circle-btn {
+    background-color: #ff6347; /* Red color for reset button */
+}
+
+.circle-btn:hover {
+    background-color: #f0e627; /* Darker red on hover */
+}
+
+#action-buttons {
+    margin-top: 20px;
+}
+
+#score {
+    margin-top: 20px;
+}
+
+/* Styling for quiz options */
+#opt {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+#opt div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+label {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    cursor: pointer;
+}
